@@ -24,7 +24,7 @@ function App() {
         <Link to="/list" className="nav-item nav-link" >Listado</Link>
         <Link to="/edit" className="nav-item nav-link" >Editar</Link>
         <Link to="/add" className="nav-item nav-link" >Agregar</Link>
-        <Link to="/add" className="nav-item nav-link" >Ventas</Link>
+        <Link to="/venta" className="nav-item nav-link" >Ventas</Link>
       </nav>
       <Switch>
         <Route path="/" exact><Home/></Route>
