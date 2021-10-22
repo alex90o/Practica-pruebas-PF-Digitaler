@@ -1,109 +1,13 @@
-.App {
+header{
+  height: 150px;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 3em;
   text-align: center;
+  line-height: 140px;
+  text-transform: uppercase;
+  text-shadow: 1px 3px 5px #000;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+  color:#fff;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.header{
-  background-color:#6c7cd3;
-  color: rgb(18, 136, 110);
-  text-align: center;
-  height: 100px;;
-  width: auto;
-  border-radius: 35px;
-  border-color: white;
-
-}
-.img1 {
-  width: 250px;
-  width: 250px;
-  background-color:#a961fb;
-  border-image-width: 50px;
- 
-
-
-  
-}
-.imagen1{
-  width: auto;
-  height: auto;
-  background-color: blue;
-  border: 20px; 
-  border-color:coral;
-  border-radius: 40px;
-}
-.hr{
-  border:solid 10px #161515;
-  border-radius: 50px;
-  color: rgb(16, 199, 98); 
-	
-  background-color: #fa8108; 
-}
-/*Fuente: https://www.iteramos.com/pregunta/25178/como-cambio-el-grosor-de-mi-etiqueta-lthrgt */
-.link{
-  color:gold;
-  font-style: italic;
-  
-}
-
-h1{
-	color: #FF9933;
-	font-style: oblique;
-	font-variant: small-caps;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-	text-shadow: 3px 3px #000000;
-	background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 50.26% , rgba(63,17,114,0.91)),color-stop( 59.59% , rgba(11,55,235,0.80)),color-stop( 64.77% , rgba(11,65,232,0.74)),color-stop( 100% , rgba(17,132,215,0.38)));
-	background-image: -webkit-linear-gradient(270deg,rgba(63,17,114,0.91) 50.26%,rgba(11,55,235,0.80) 59.59%,rgba(11,65,232,0.74) 64.77%,rgba(17,132,215,0.38) 100%);
-	background-image: linear-gradient(180deg,rgba(63,17,114,0.91) 50.26%,rgba(11,55,235,0.80) 59.59%,rgba(11,65,232,0.74) 64.77%,rgba(17,132,215,0.38) 100%);
-	text-align: center;
-}
-h2 {
-	color: #FF0000;
-	font-style: italic;
-	text-align: center;
-	text-shadow: 1px 1px #000000;
-	}
-p{
-	color: #FFFFFF;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	font-size: small;
-	line-height: normal;
-	text-align: center;
-	}
-  
